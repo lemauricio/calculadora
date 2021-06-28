@@ -145,3 +145,9 @@ Vimos que deve haver uma branch de desenvolvimento (comumente chamado de develop
 Vimos que cada funcionalidade deve ser feita em uma branch separada, e que é comum que esta branch tenha feature/ como prefixo
 Aprendemos também que bugs normalmente são corrigidos em branches separadas, com o prefixo hotfix/
 Além disso, branches específicas para cada release são criadas para realizar os testes e correções de bugs específicos
+
+
+
+git cola - ferramenta grafica leve
+
+https://www.gitkraken.com/ - ferramenta grafica completa
