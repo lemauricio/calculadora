@@ -152,7 +152,10 @@ git cola - ferramenta grafica leve
 
 https://www.gitkraken.com/ - ferramenta grafica completa
 
-
+Que há ferramentas visuais que podem nos auxiliar com o trabalho com o Git;
+O Git Cola foi uma das primeiras ferramentas visuais multiplataforma. Embora não seja a mais complexa ou visualmente atraente, é bem completa e pode nos ajudar bastante;
+O GitHub Desktop pode ser interessante para gerenciar os projetos do GitHub de forma mais ágil e facilitada, sem a necessidade de acessar o site;
+O GitKraken é uma ferramenta extremamente completa, que nos auxilia inclusive com a implementação do Git Flow.
 
 
 
