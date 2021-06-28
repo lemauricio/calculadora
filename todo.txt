@@ -151,3 +151,78 @@ Além disso, branches específicas para cada release são criadas para realizar 
 git cola - ferramenta grafica leve
 
 https://www.gitkraken.com/ - ferramenta grafica completa
+
+
+
+
+
+
+
+
+
+
+Chegou a hora de você pôr em prática o que foi visto na aula. Para isso, execute os passos listados abaixo.
+
+Acesse o site https://git-cola.github.io/downloads.html e realize o download e instalação do Git Cola;
+
+Abra o Git Cola e selecione o seu repositório, para que o programa possa gerenciar as alterações;
+
+Em seu repositório, adicione dois pontos (:) após cada título das listas de cursos;
+
+No Git Cola, aguarde alguns segundos e observe que a sua alteração já pode ser visualizada;
+
+Com o botão direito do mouse, clique no arquivo modificado e clique em Stage Selecionado, para realizar o trabalho equivalente ao git add;
+
+Escreva uma mensagem de commit e clique no botão Commit;
+
+No menu Ver, clique em Visualizar Histórico e confira uma visualização mais interessante do seu log;
+
+No menu Ações, clique em Push para enviar as alterações para o seu repositório remoto, de nome local, na branch master;
+
+Instale o GitHub Desktop:
+
+9.1. Se você estiver no Windows ou macOS, acesse https://desktop.github.com/ para instalá-lo;
+
+9.2. Se você estiver utilizando Linux, acesse https://github.com/shiftkey/desktop para baixar e instalar;
+
+Faça login com o seu usuário e preencha os dados de configuração;
+
+Se familiarize com a interface do GitHub Desktop;
+
+Acesse o site https://www.gitkraken.com/download para realizar o download e instalar o Git Kraken;
+
+Após instalado, faça login utilizando o seu usuário do GitHub (ou crie uma nova conta, se preferir);
+
+Clique em Open a Repo para abrir o seu repositório;
+
+Clique no botão Pull para trazer todas as alterações do repositório remoto;
+
+Analise e se familiarize com a interface do Git Kraken;
+
+Clique no ícone de menu no canto superior direito da interface, e depois clique em Preferences;
+
+Na tela que abrir, vá para a aba Git Flow. Analise as opções, altere caso desejar, e depois clique em Initialize Git Flow;
+
+No canto esquerdo da tela principal do programa, na parte Git Flow, clique na seta para a direita que é exibida, e então clique em Feature;
+
+Defina o nome da branch que será criada como feature/lista-cursos-redes;
+
+Clique em Start Feature. O Git Kraken irá criar esta branch para você;
+
+No código fonte, adicione o seguinte conteúdo:
+
+<h2>Redes</h2>
+<dl>
+<dt>Redes 1</dt>
+<dd>Introdução, Conceitos e Prática</dd>
+
+<dt>Redes 2</dt>
+<dd>Montando um projeto do cliente até o provedor de serviços</dd>
+</dl>COPIAR CÓDIGO
+No canto direito da tela, clique no botão Stage all changes para adicionar as alterações que deverão ser commitadas;
+
+Logo abaixo, defina a mensagem de commit como "Lista de cursos de redes" e clique em Commit changes;
+
+Novamente no canto esquerdo, na aba Git Flow, clique na seta para a direita, e clique no botão Finish feature/lista-cursos-redes;
+
+Clique no botão Finish feature para que o Git Kraken faça o merge para a branch develop e remova a branch atual;
